@@ -17,8 +17,6 @@ notifications = api.mentions_timeline(count=5)
 # Output notifications in Conky format
 output = ''
 for notification in notifications:
-    output += '${color #4F4F4F}${font Source Code Pro:size=10}'
     output += '${goto 10}' + notification.author.name + ': '
     output += '${goto 130}' + notification.text + '\n'
-    output += '${color}\n'
 print(output)

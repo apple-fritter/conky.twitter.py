@@ -1,4 +1,4 @@
-# conky.twitter-notifications
+# conky.twitter.py
 This is a Python code snippet that utilizes the `Tweepy` library to interact with the `Twitter API`. The code authenticates the Twitter API using the `consumer key`, `consumer secret`, `access token`, and `access token secret`. It then retrieves the most recent 5 notifications or mentions of the authenticated user's Twitter account using the `mentions_timeline()` method.
 
 The retrieved notifications are then formatted using the Conky system monitor format and stored in the output variable. Finally, the formatted notifications are printed to the console using the print() function.

@@ -19,7 +19,7 @@ pip install tweepy
 ## Considerations
 The user may want to modify the number of notifications retrieved by changing the count parameter in the `api.mentions_timeline()` method. For example, notifications = api.mentions_timeline(count=10) will retrieve the 10 most recent notifications instead of the default 5.
 
-If the user wants to display the notifications in Conky, they may need to modify the formatting of the output string to match their desired display format. They can also modify the font, color, and positioning of the notification text by changing the values passed to the Conky format tags (e.g., `${font Source Code Pro:size=10}` and `${color #4F4F4F}`).
+If the user wants to display the notifications in Conky, they may need to modify the formatting of the output string to match their desired display format.
 
 ### See also
 #### [.conkyrc](https://github.com/apple-fritter/.conkyrc): conky configuration file.

@@ -22,7 +22,7 @@ The user may want to modify the number of notifications retrieved by changing th
 If the user wants to display the notifications in Conky, they may need to modify the formatting of the output string to match their desired display format. They can also modify the font, color, and positioning of the notification text by changing the values passed to the Conky format tags (e.g., `${font Source Code Pro:size=10}` and `${color #4F4F4F}`).
 
 ### See also
-#### [.conkyrc](https://github.com/apple-fritter/conky.conkyrc): conky configuration file.
+#### [.conkyrc](https://github.com/apple-fritter/.conkyrc): conky configuration file.
 #### [moonphase.py](https://github.com/apple-fritter/conky.moonphase.py): RSS reader for Conky that reads in a TSV based list of feeds. Python.
 #### [RTSP-view.py](https://github.com/apple-fritter/conky.RTSP-view.py): Script that displays an RTSP stream. Python.
 #### [tide.py](https://github.com/apple-fritter/conky.tide.py): Script that displays the local tide using the Tidal API. Python.

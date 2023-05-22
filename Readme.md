@@ -21,11 +21,14 @@ The user may want to modify the number of notifications retrieved by changing th
 
 If the user wants to display the notifications in Conky, they may need to modify the formatting of the output string to match their desired display format.
 
-## See also
+## 🤪 Conky Meta
+
+- [888v](https://github.com/apple-fritter/888v): - Virtual webcam clone with Conky overlay; Bash.
 - [.conkyrc](https://github.com/apple-fritter/.conkyrc): conky configuration file.
 - [moonphase.py](https://github.com/apple-fritter/conky.moonphase.py): RSS reader for Conky that reads in a TSV based list of feeds. Python.
 - [RTSP-view.py](https://github.com/apple-fritter/conky.RTSP-view.py): Script that displays an RTSP stream. Python.
 - [tide.py](https://github.com/apple-fritter/conky.tide.py): Script that displays the local tide using the Tidal API. Python.
+- [twitter.py](https://github.com/apple-fritter/conky.twitter.py): Script that displays a user's Twitter notifications. Python.
 
 ## [Disclaimer](DISCLAIMER)
 **This software is provided "as is" and without warranty of any kind**, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.

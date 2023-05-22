@@ -20,6 +20,17 @@ pip install tweepy
 
 ---
 
+## Example Output
+```
+John Doe: @GitHubFAN23 Hi, can you please provide more information about the upcoming event?
+Jane Smith: @GitHubFAN23 I loved your recent blog post! Great insights.
+Alex Johnson: @GitHubFAN23 Congratulations on reaching 10k followers! Well deserved.
+Sarah Thompson: @GitHubFAN23 Just saw your latest YouTube video. It was awesome!
+Michael Brown: @GitHubFAN23 Quick question: Do you have any recommendations for good books to read?
+```
+
+---
+
 ## Considerations
 The user may want to modify the number of notifications retrieved by changing the count parameter in the `api.mentions_timeline()` method. For example, notifications = api.mentions_timeline(count=10) will retrieve the 10 most recent notifications instead of the default 5.
 

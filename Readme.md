@@ -9,13 +9,13 @@ The retrieved notifications are then formatted using the Conky system monitor fo
 To use this code, you will need to have a Twitter account and have access to the Twitter API. Follow these steps to use the code:
 
 1. Create a Twitter Developer account and apply for a developer account to obtain the necessary credentials to access the Twitter API. You can follow the instructions on the Twitter Developer documentation page to create your account and obtain your credentials.
-2. Install the Tweepy library in your Python environment. You can install Tweepy using the pip package manager by running the following command in your terminal or command prompt:
+2. Install the `Tweepy` library in your Python environment. You can install Tweepy using the `pip` package manager by running the following command in your terminal or command prompt:
 
 ```Bash
 pip install tweepy
 ```
 
-3. Copy the code snippet you provided into a Python file (e.g., notifications.py), and replace the placeholder strings ('your_consumer_key', 'your_consumer_secret', 'your_access_token', 'your_access_token_secret') with your actual Twitter API credentials.
+3. Copy the code snippet you provided into a Python file (e.g., `notifications.py`), and replace the placeholder strings ('your_consumer_key', 'your_consumer_secret', 'your_access_token', 'your_access_token_secret') with your actual Twitter API credentials.
 4. Save the file and run it using a Python interpreter (e.g., python notifications.py). The script will connect to the Twitter API, retrieve the most recent 5 notifications or mentions, and format them in the Conky format.
 
 ---
